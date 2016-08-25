@@ -1,0 +1,16 @@
+group 'io.deepstream.tutorial'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile group: 'io.deepstream', name: 'deepstream.io-client-java', version: '0.5'
+    compile group: 'org.kohsuke', name: 'github-api', version: '1.77'
+}

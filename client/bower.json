@@ -1,0 +1,21 @@
+{
+  "name": "ds-simple-input",
+  "version": "0.0.0",
+  "homepage": "https://github.com/deepstreamIO/ds-demo-simple-app-react",
+  "authors": "deepstreamHub GmbH",
+  "description": "A sample app using react",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "deepstream.io-client-js": "latest",
+    "react": "~0.13.3",
+    "eventEmitter": "~4.2.11"
+  }
+}

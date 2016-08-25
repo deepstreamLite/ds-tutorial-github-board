@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+body{
+  background: #eee;
+}
+
+.issueList {
+    display: inline-block;
+    vertical-align: top;
+    width: calc( 100% / 5 );
+    min-width: 100px;
+}
+
+.issueListHeader {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 100;
+}
+
+a.issue:hover {
+    background-color: #fff;
+}
+
+a.issue {
+    padding: 10px 5px;
+    margin: 10px;
+    display: block;
+    border-radius: 2px;
+    background-color: #fefefe;
+    font-weight: 300;
+    text-decoration: initial;
+}
