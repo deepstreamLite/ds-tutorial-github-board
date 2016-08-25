@@ -14,7 +14,7 @@ Kawaguchi's GitHub API for Java](//github-api.kohsuke.org/).
   [localhost:8000](//localhost:8000/).
 
 - Install and start a local deepstream server. For more information 
-see the [Quickstart Tutorial](/deepstream.io/tutorials/core/getting-started-quickstart//).
+see the [Quickstart Tutorial](//deepstream.io/tutorials/core/getting-started-quickstart/).
 
 - Create a [GitHub personal access token](//github.com/settings/tokens/) with 
 repository access. Then create a file `~/.github` containing:
