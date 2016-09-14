@@ -11,6 +11,6 @@ repositories {
 }
 
 dependencies {
-    compile group: 'io.deepstream', name: 'deepstream.io-client-java', version: '0.5'
+    compile group: 'io.deepstream', name: 'deepstream.io-client-java', version: '0.8'
     compile group: 'org.kohsuke', name: 'github-api', version: '1.77'
 }

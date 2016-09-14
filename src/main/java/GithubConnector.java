@@ -33,9 +33,6 @@ public class GithubConnector {
         } catch (URISyntaxException e) {
             System.out.format("Malformed deepstream URI '%s'%n", deepstreamURI);
             throw new RuntimeException(e);
-        } catch (DeepstreamLoginException e) {
-            System.out.println("Unable to login to deepstream server%n");
-            throw new RuntimeException(e);
         }
 
         System.out.println("Connected to deepstream successfully");
@@ -123,7 +120,7 @@ public class GithubConnector {
                 // add records for each label's color
                 labelColorsRecord.set(labelName, label.getColor());
             else {
-                System.out.printf("Label '%s' does not exist on the repository", labelName);
+                System.out.printf("Label '%s' does not exist on the repository%n", labelName);
             }
         }
     }
